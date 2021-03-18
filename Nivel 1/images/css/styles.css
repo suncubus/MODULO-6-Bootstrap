@@ -1,0 +1,103 @@
+/*estilos de contenedores*/
+body {
+  font: 400 14px/23px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+/*estilos de borde*/
+.bottom-border {
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.left-border {
+  border-left: 1px solid var(--gray-light);
+}
+
+/*nav y navbar*/
+.nav {
+  margin-bottom: 0;
+}
+
+.navbar {
+  padding: .5rem .2rem;
+}
+
+.nav-link {
+  color: var(--gray);
+}
+
+.nav-link i {
+  padding: 0 6px 0 3px;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  outline: none;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  margin: 6px 0 0;
+}
+
+.dropdown-item {
+  font-weight: normal;
+  color: var(--gray);
+  font-size: 13px;
+  padding: .40rem 1.5rem;
+}
+
+/*barra logo y buscador*/
+.input-group .form-control {
+  color: var(--gray);
+  height: 40px;
+}
+
+/*slide*/
+.carousel-item {
+  overflow: hidden;
+}
+
+.carousel-caption {
+  color: var(--gray);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.row {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  body {
+    padding: 0;
+  }
+  .navbar-toggler {
+    padding: 0.15rem 0.55rem;
+    font-size: 1rem;
+  }
+  .form-control {
+    padding: 0.15rem 0.55rem;
+    font-size: .8rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
